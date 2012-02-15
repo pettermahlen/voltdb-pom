@@ -1,6 +1,11 @@
-This project contains two pom files intended to be used when deploying or installing VoltDB into Maven repositories. Note that the 
-files do NOT provide any support for building VoltDB; you'll need to do that using methods supplied by VoltDB themselves, or get
-binary distributions for them.
+This project contains pom files intended to be used when deploying or installing
+VoltDB into Maven repositories. Note that the files do NOT provide any support for
+building VoltDB; you'll need to do that using methods supplied by VoltDB themselves, 
+or get binary distributions for them.
+
+The value of using the pom files defined here is that they list the transitive dependencies 
+required by VoltDB, meaning that setting up a project using VoltDB in your IDE will be
+easier.
 
 To install server and client jars into your local repository, do:
 
