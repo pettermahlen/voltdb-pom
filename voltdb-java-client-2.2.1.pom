@@ -71,13 +71,13 @@
       <version>1.0.4.1</version>
     </dependency>
     <!--
-     TODO: this contains the same classes as the jar file in the VoltDB distribution. I'm unclear as to whether they 
-     are identical from a binary file perspective. 
+     NOTE: this artifact is not available in Maven Central; we've manually uploaded it to our
+     Nexus repository in order to make it available.
      -->
     <dependency>
 	<groupId>org.zeromq</groupId>
-	<artifactId>jzmq</artifactId>
-    	<version>1.0.0</version>
+	<artifactId>zmq</artifactId>
+    	<version>2.1.11</version>
     </dependency>
 
     <!-- Not needed? -->
